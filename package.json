@@ -1,0 +1,11 @@
+{
+  "name": "the-promise-land",
+  "version": "1.0.0",
+  "description": "a place of callback heavan",
+  "main": "index.js",
+  "author": "Chris Gradwohl <christophergradwohl@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.3"
+  }
+}
