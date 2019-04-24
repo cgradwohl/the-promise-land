@@ -70,6 +70,8 @@ const fetchFruits = async () => {
 const fetchFruitsAsync = async () => {
   const fruits = await getFruitInventory();
 
+  // here we map over the array of fruits which returns an array of fruits to 
+  // Promise.all() 
   Promise.all(
     fruits.map(async fruit => {
       const fruitName = await getFruitNames(fruit);
