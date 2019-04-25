@@ -8,7 +8,9 @@
 /**
  * THINGS TO DEFINE:
  * 1. promise chain
- * 2. the return from an async function gets wrapped into a promise
+ * 2. await - waits for the passed Promise's resolution
+ * 3. the return from an async function gets wrapped into a promise
+ * 4. the return from a then() function is a new promise, different from the original
  */
 
 // what happens when I return from a then() block? 
